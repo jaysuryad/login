@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+body{
+    background: url(jay.jpg);
+    background-size: 1600px 800px;
+}
+.container{
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 45%;
+
+}
+.container h1{
+    font-size: 40px;
+    border: 10px transparent;
+    padding: 10px 10px;
+    border-bottom: 4px solid purple;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.box{
+width: 100%;
+margin: 22px 3px;
+
+
+}
+.box input{
+    width: 75%;
+    margin: 2px 23px 0 0;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    padding: 10px 5px 10px 5px;
+    background: none;
+    border-bottom: 2px solid purple;
+}
+.btn{
+    margin: 10px 0 10px 5px ;
+    cursor: pointer;
+border-radius: 10px;
+width: 30%;
+border: 2px solid purple;
+font-size: 20px;
+  
+}
+.box i{
+    width: 30px;
+    float: inherit;
+    text-align: center;
+}
